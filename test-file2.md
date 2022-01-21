@@ -1,3 +1,3 @@
 # Title
 
-[a link)(https://something.com)
+[test link](https://duckduckgo.com])
