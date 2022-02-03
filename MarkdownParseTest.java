@@ -33,4 +33,11 @@ public class MarkdownParseTest {
         List<String> list3 = List.of();
         assertEquals("test file 3", list3.size(), 0);
     }
+
+    @Test
+    public void ParseTestActions() throws IOException {
+        assertEquals(5, MarkdownParse.subtract(11, 5)); 
+    }
+
+
 }

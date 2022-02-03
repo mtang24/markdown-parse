@@ -42,4 +42,9 @@ public class MarkdownParse {
         ArrayList<String> links = getLinks(contents);
         System.out.println(links);
     }
+
+    public static int subtract(int a, int b){
+        return a - b;
+    }
+    
 }
