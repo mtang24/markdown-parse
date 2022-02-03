@@ -36,7 +36,7 @@ public class MarkdownParseTest {
 
     @Test
     public void ParseTestActions() throws IOException {
-        assertEquals(5, MarkdownParse.subtract(11, 5)); 
+        assertEquals(5, MarkdownParse.subtract(11, 6)); 
     }
 
 
