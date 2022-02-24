@@ -34,9 +34,16 @@ public class MarkdownParseTest {
         assertEquals("test file 3", list3.size(), 0);
     }
 
+    // @Test
+    // public void ParseTestActions() throws IOException {
+    //     assertEquals(5, MarkdownParse.subtract(11, 6)); 
+    // }
+
     @Test
-    public void ParseTestActions() throws IOException {
-        assertEquals(5, MarkdownParse.subtract(11, 6)); 
+    public void testSpaceAfterParen() {
+        String contents = "[title]( space-in-url.com)";
+        List<String> expect = List.of("space-in-url.com");
+        assertEquals(expect, MarkdownParse.getLinks(contents));
     }
 
     // @Test
